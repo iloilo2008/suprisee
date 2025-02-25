@@ -1,0 +1,79 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FDEFF4;
+    color: #5D3F6A;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #FFC0CB;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #FF69B4;
+}
+
+header p {
+    font-size: 18px;
+    color: #C71585;
+}
+
+h2 {
+    color: #D87093;
+    margin: 20px 0;
+}
+
+/* Message section styling */
+.message-section {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #FF69B4;
+    font-weight: bold;
+}
+
+/* Interactive section */
+.interactive button {
+    background-color: #FF69B4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.interactive button:hover {
+    background-color: #FF1493;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #D87093;
+}
+
+/* Animations */
+@keyframes popUp {
+    0% { opacity: 0; transform: scale(0.5); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+#message {
+    font-size: 24px;
+    color: #FF1493;
+    animation: popUp 1s ease-out;
+}
